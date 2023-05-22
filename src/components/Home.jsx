@@ -2,7 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section className="bg-black min-h-screen min-w-full pt-[14rem] md:pt-[6.8rem]">
+    <section
+      id="home"
+      className="bg-black min-h-screen min-w-full pt-[14rem] md:pt-[6.8rem]"
+    >
       <div className="container mx-auto w-full mt-[1rem] ">
         <div className="text-center text-white  pt-[12vh] md:pt-[22vh]">
           <h1 className="text-s36 sm:text-s48 md:text-s56 lg:text-s64  leading-tight tracking-wide font-bold ">

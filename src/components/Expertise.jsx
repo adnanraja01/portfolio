@@ -17,7 +17,7 @@ const Data = [
 ];
 const Expertise = () => {
   return (
-    <section className="bg-black py-16 md:py-32 px-[2rem]">
+    <section id="expertise" className="bg-black py-16 md:py-32 px-[2rem]">
       <div className="container mx-auto">
         <div className="flex justify-center items-center">
           <h2 className="text-s40 lg:text-s48 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0062ff]  to-[#61efff] ">

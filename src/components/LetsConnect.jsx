@@ -2,7 +2,10 @@ import React from "react";
 
 const LetsConnect = () => {
   return (
-    <section className="relative bg-black py-16 md:py-28 px-[2rem]">
+    <section
+      id="connect"
+      className="relative bg-black py-16 md:py-28 px-[2rem]"
+    >
       <div className="container mx-auto">
         <div
           className="relative overflow-hidden z-20 flex flex-col items-center text-center
@@ -16,9 +19,12 @@ const LetsConnect = () => {
             Got a project you would like me to work on? Or how about just a
             friendly chat?
           </p>
-          <button className="mt-10 font-medium text-s16 lg:text-s18 bg-gradient-to-r p-[.4rem] from-[#0062ff]  to-[#61efff] px-[1.6rem] py-[.8rem] rounded-full hover:brightness-110 ">
+          <a
+            href="tel:+917889506293"
+            className="mt-10 font-medium text-s16 lg:text-s18 bg-gradient-to-r p-[.4rem] from-[#0062ff]  to-[#61efff] px-[1.6rem] py-[.8rem] rounded-full hover:brightness-110 "
+          >
             Contact Me
-          </button>
+          </a>
         </div>
       </div>
       <div className="Index_contact_left absolute"></div>

@@ -3,7 +3,7 @@ import Expertise from "./components/Expertise";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import LetsConnect from "./components/LetsConnect";
-import MyPortfolio from "./components/MyPorfolio";
+import MyPortfolio from "./components/MyPortfolio";
 import Navbar from "./components/Navbar";
 
 function App() {

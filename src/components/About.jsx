@@ -8,7 +8,7 @@ import GitHub from "../assets/svg/github2.svg";
 
 const About = () => {
   return (
-    <section className="bg-black  py-16 md:py-40 ">
+    <section id="about" className="bg-black  py-16 md:py-40 ">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-[50rem] md:gap-[65rem] lg:gap-24 lg:grid-cols-2">
           <div className="col-span-1">
@@ -49,25 +49,40 @@ const About = () => {
                 You can find me here:
               </p>
               <div className="flex flex-col sm:flex-row justify-start gap-6 gap-y-10 lg:gap-12 mt-[2rem]">
-                <div className="flex items-center gap-3 cursor-pointer">
+                <a
+                  target="blank"
+                  rel="noneferrer"
+                  href="https://api.whatsapp.com/send?phone=+917889506293"
+                  className="flex items-center gap-3 cursor-pointer"
+                >
                   <img src={WhatsApp} alt="Whatsapp" />
                   <p className="text-grey text-s16 lg:text-s18 font-semibold">
                     WhatsApp
                   </p>
-                </div>
+                </a>
 
-                <div className=" flex items-center gap-3 cursor-pointer">
+                <a
+                  href="https://www.linkedin.com/in/raja-adnaan-altaf-141757170"
+                  className=" flex items-center gap-3 cursor-pointer"
+                  target="blank"
+                  rel="noneferrer"
+                >
                   <img src={LinkedIn} alt="LinkedIn" />
                   <p className="text-grey text-s16 lg:text-s18 font-semibold">
                     LinkedIn
                   </p>
-                </div>
-                <div className="flex items-center gap-3 cursor-pointer ">
+                </a>
+                <a
+                  href="https://github.com/adnanraja01"
+                  className="flex items-center gap-3 cursor-pointer z-40 "
+                  target="blank"
+                  rel="noneferrer"
+                >
                   <img src={GitHub} alt="GitHub" />
                   <p className=" text-grey text-s16 lg:text-s18 font-semibold">
                     GitHub
                   </p>
-                </div>
+                </a>
               </div>
             </div>
           </div>

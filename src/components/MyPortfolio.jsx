@@ -11,27 +11,31 @@ const Data = [
     src: SpeedoLearn,
     title: "SpeedoLearn",
     info: "Online Learning and Teaching Platform",
+    href: "https://www.speedolearn.com/",
   },
   {
     src: Dream,
     title: "Dream Education ",
     info: "Education Consultancy",
+    href: "http://dreameducationservices.com/",
   },
   {
     src: Crm,
     title: "CRM",
     info: "Customer Relationship Management Software",
+    href: "http://crm.sgtstocks.com/login",
   },
   {
     src: Sgt,
     title: "Sabeel General Trading ",
     info: "Online Stock Management Software",
+    href: "https://sgtstocks.com/login",
   },
 ];
 
 const MyPortfolio = () => {
   return (
-    <section className="bg-black py-16 md:py-32 px-[2rem]">
+    <section id="portfolio" className="bg-black py-16 md:py-32 px-[2rem]">
       <div className="container mx-auto">
         <div className="flex justify-center">
           <h2 className="text-s48 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0062ff]  to-[#61efff]">
@@ -48,6 +52,7 @@ const MyPortfolio = () => {
               src={data.src}
               title={data.title}
               info={data.info}
+              href={data.href}
             />
           ))}
         </div>
