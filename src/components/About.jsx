@@ -53,7 +53,7 @@ const About = () => {
                   target="blank"
                   rel="noneferrer"
                   href="https://api.whatsapp.com/send?phone=+917889506293"
-                  className="flex items-center gap-3 cursor-pointer"
+                  className="flex items-center gap-3 cursor-pointer z-40 "
                 >
                   <img src={WhatsApp} alt="Whatsapp" />
                   <p className="text-grey text-s16 lg:text-s18 font-semibold">
@@ -63,7 +63,7 @@ const About = () => {
 
                 <a
                   href="https://www.linkedin.com/in/raja-adnaan-altaf-141757170"
-                  className=" flex items-center gap-3 cursor-pointer"
+                  className=" flex items-center gap-3 cursor-pointer z-40 "
                   target="blank"
                   rel="noneferrer"
                 >

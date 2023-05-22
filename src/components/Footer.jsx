@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-center gap-y-[2.5rem] gap-x-[10rem] items-center my-[4rem]">
           <a
             href="tel:+917889506293"
-            className="flex flex-col z-40 justify-center items-center gap-3 cursor-pointer"
+            className="flex flex-col z-40 justify-center items-center gap-3 cursor-pointer "
           >
             <img className="h-[3rem] w-[3rem]" src={PhoneSvg} alt="Phone" />
             <h4 className="text-grey text-s18 font-semibold">Call me</h4>
@@ -26,7 +26,7 @@ const Footer = () => {
             target="blank"
             rel="noreferre"
             href="mailto:adnanrajaofficial@gmail.com"
-            className="flex flex-col justify-center items-center gap-3 cursor-pointer"
+            className="flex flex-col justify-center items-center gap-3 cursor-pointer z-40 "
           >
             <img className="h-[3rem] w-[3rem]" src={MailSvg} alt="Phone" />
             <h4 className="text-grey text-s18 font-semibold">Mail me</h4>
@@ -38,7 +38,7 @@ const Footer = () => {
             target="blank"
             rel="noreferre"
             href="https://www.linkedin.com/in/raja-adnaan-altaf-141757170"
-            className="flex flex-col justify-center items-center gap-3 cursor-pointer"
+            className="flex flex-col justify-center items-center gap-3 cursor-pointer z-40 "
           >
             <img className="h-[3rem] w-[3rem]" src={LinkedInSvg} alt="Phone" />
             <h4 className="text-grey text-s18 font-semibold">Follow me</h4>

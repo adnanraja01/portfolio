@@ -21,7 +21,7 @@ const LetsConnect = () => {
           </p>
           <a
             href="tel:+917889506293"
-            className="mt-10 font-medium text-s16 lg:text-s18 bg-gradient-to-r p-[.4rem] from-[#0062ff]  to-[#61efff] px-[1.6rem] py-[.8rem] rounded-full hover:brightness-110 "
+            className="z-40  mt-10 font-medium text-s16 lg:text-s18 bg-gradient-to-r p-[.4rem] from-[#0062ff]  to-[#61efff] px-[1.6rem] py-[.8rem] rounded-full hover:brightness-110 "
           >
             Contact Me
           </a>

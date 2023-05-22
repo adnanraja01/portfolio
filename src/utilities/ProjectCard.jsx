@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
         <a
           target="blank"
           rel="noneferrer"
-          className="cursor-pointer mr-[2rem]"
+          className="cursor-pointer mr-[2rem] z-40 "
           href={props.href}
         >
           <img src={LinkSvg} alt="link" />
